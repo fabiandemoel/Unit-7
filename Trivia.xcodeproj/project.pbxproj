@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6976111C32ED0FBD4256C582 /* Pods_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9B5679E72C2A0A695241A /* Pods_Trivia.framework */; };
+		A738CD422226E81900E355AE /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738CD412226E81900E355AE /* Questions.swift */; };
+		A738CD442226FF4900E355AE /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738CD432226FF4900E355AE /* Score.swift */; };
 		A738E69B22106C4F00B13483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738E69A22106C4F00B13483 /* AppDelegate.swift */; };
-		A738E69D22106C4F00B13483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738E69C22106C4F00B13483 /* ViewController.swift */; };
+		A738E69D22106C4F00B13483 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738E69C22106C4F00B13483 /* IntroductionViewController.swift */; };
 		A738E6A022106C4F00B13483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A738E69E22106C4F00B13483 /* Main.storyboard */; };
 		A738E6A222106C5000B13483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A738E6A122106C5000B13483 /* Assets.xcassets */; };
 		A738E6A522106C5000B13483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A738E6A322106C5000B13483 /* LaunchScreen.storyboard */; };
+		A73C1B38223C1C8E009A7D1E /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C1B37223C1C8E009A7D1E /* Answers.swift */; };
+		A7C4AA24222FE8F3009E3740 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C4AA23222FE8F3009E3740 /* TriviaController.swift */; };
+		A7ED0100222D8E7400733691 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED00FF222D8E7400733691 /* QuestionViewController.swift */; };
+		A7ED0102222D8F1300733691 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED0101222D8F1300733691 /* ResultViewController.swift */; };
+		A7ED0104222D8F2500733691 /* HighscoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED0103222D8F2500733691 /* HighscoresViewController.swift */; };
+		A7EEDF64223EE7A4009AF4B7 /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EEDF63223EE7A4009AF4B7 /* ResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F6422D96EA7421FF37E85DD /* Pods-Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.release.xcconfig"; path = "Target Support Files/Pods-Trivia/Pods-Trivia.release.xcconfig"; sourceTree = "<group>"; };
+		A738CD412226E81900E355AE /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		A738CD432226FF4900E355AE /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		A738E69722106C4F00B13483 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A738E69A22106C4F00B13483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A738E69C22106C4F00B13483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A738E69C22106C4F00B13483 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		A738E69F22106C4F00B13483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A738E6A122106C5000B13483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A738E6A422106C5000B13483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A738E6A622106C5000B13483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C1B37223C1C8E009A7D1E /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
+		A7C4AA23222FE8F3009E3740 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
+		A7ED00FF222D8E7400733691 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		A7ED0101222D8F1300733691 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A7ED0103222D8F2500733691 /* HighscoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoresViewController.swift; sourceTree = "<group>"; };
+		A7EEDF63223EE7A4009AF4B7 /* ResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
+		AEC9B5679E72C2A0A695241A /* Pods_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2CBF6D7C2D941C68332646 /* Pods-Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.debug.xcconfig"; path = "Target Support Files/Pods-Trivia/Pods-Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6976111C32ED0FBD4256C582 /* Pods_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C516FCEFD33922C73739993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CBF6D7C2D941C68332646 /* Pods-Trivia.debug.xcconfig */,
+				5F6422D96EA7421FF37E85DD /* Pods-Trivia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51369167C2F05683A4750B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9B5679E72C2A0A695241A /* Pods_Trivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A738E68E22106C4F00B13483 = {
 			isa = PBXGroup;
 			children = (
 				A738E69922106C4F00B13483 /* Trivia */,
 				A738E69822106C4F00B13483 /* Products */,
+				3C516FCEFD33922C73739993 /* Pods */,
+				51369167C2F05683A4750B27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +94,17 @@
 		A738E69922106C4F00B13483 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
-				A738E69A22106C4F00B13483 /* AppDelegate.swift */,
-				A738E69C22106C4F00B13483 /* ViewController.swift */,
 				A738E69E22106C4F00B13483 /* Main.storyboard */,
+				A7C4AA23222FE8F3009E3740 /* TriviaController.swift */,
+				A7EEDF63223EE7A4009AF4B7 /* ResultsController.swift */,
+				A738E69C22106C4F00B13483 /* IntroductionViewController.swift */,
+				A7ED00FF222D8E7400733691 /* QuestionViewController.swift */,
+				A7ED0101222D8F1300733691 /* ResultViewController.swift */,
+				A7ED0103222D8F2500733691 /* HighscoresViewController.swift */,
+				A738CD412226E81900E355AE /* Questions.swift */,
+				A73C1B37223C1C8E009A7D1E /* Answers.swift */,
+				A738CD432226FF4900E355AE /* Score.swift */,
+				A738E69A22106C4F00B13483 /* AppDelegate.swift */,
 				A738E6A122106C5000B13483 /* Assets.xcassets */,
 				A738E6A322106C5000B13483 /* LaunchScreen.storyboard */,
 				A738E6A622106C5000B13483 /* Info.plist */,
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A738E6A922106C5000B13483 /* Build configuration list for PBXNativeTarget "Trivia" */;
 			buildPhases = (
+				31434AF39929F3F35CD0AB62 /* [CP] Check Pods Manifest.lock */,
 				A738E69322106C4F00B13483 /* Sources */,
 				A738E69422106C4F00B13483 /* Frameworks */,
 				A738E69522106C4F00B13483 /* Resources */,
+				6D53946F981D2687A5D83B30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +180,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31434AF39929F3F35CD0AB62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D53946F981D2687A5D83B30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLString.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A738E69322106C4F00B13483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A738E69D22106C4F00B13483 /* ViewController.swift in Sources */,
+				A7ED0102222D8F1300733691 /* ResultViewController.swift in Sources */,
+				A738CD422226E81900E355AE /* Questions.swift in Sources */,
+				A7C4AA24222FE8F3009E3740 /* TriviaController.swift in Sources */,
+				A73C1B38223C1C8E009A7D1E /* Answers.swift in Sources */,
+				A7EEDF64223EE7A4009AF4B7 /* ResultsController.swift in Sources */,
+				A7ED0104222D8F2500733691 /* HighscoresViewController.swift in Sources */,
+				A7ED0100222D8E7400733691 /* QuestionViewController.swift in Sources */,
+				A738E69D22106C4F00B13483 /* IntroductionViewController.swift in Sources */,
+				A738CD442226FF4900E355AE /* Score.swift in Sources */,
 				A738E69B22106C4F00B13483 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +385,7 @@
 		};
 		A738E6AA22106C5000B13483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2CBF6D7C2D941C68332646 /* Pods-Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +404,7 @@
 		};
 		A738E6AB22106C5000B13483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6422D96EA7421FF37E85DD /* Pods-Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
